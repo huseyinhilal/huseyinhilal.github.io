@@ -2,17 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Huseyin Hilal Blog</title>
-    <link>https://huseyinhilal.github.io.git/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Huseyin Hilal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Jan 2026 00:19:24 +0300</lastBuildDate><atom:link href="https://huseyinhilal.github.io.git/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jan 2026 15:36:37 +0300</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Object-Oriented Programming Encapsulation Explained</title>
+      <link>http://localhost:1313/posts/java_oop/</link>
+      <pubDate>Sat, 03 Jan 2026 15:36:37 +0300</pubDate>
+      
+      <guid>http://localhost:1313/posts/java_oop/</guid>
+      
+      <description>&lt;p&gt;It has happened many times that I tried to learn OOP, but I somehow got stuck in tutorial hell and never really understood the logic behind it. Yes, I know that we need to create classes and reference them from other classes to separate different objects and responsibilities and make the code modular. But I always struggled when it came to writing code without any help. So let’s overcome this issue and truly learn OOP.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Testing the post and checking how to use</title>
+      <link>http://localhost:1313/posts/testing/</link>
+      <pubDate>Sat, 03 Jan 2026 02:17:27 +0300</pubDate>
+      
+      <guid>http://localhost:1313/posts/testing/</guid>
+      
+      <description>&lt;p&gt;Today I have learned how to use double ORDER BY in sql. Basically what it does is it orders by the first condition and if any of the records have same value we can order them with some other condition.
+The logic is as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt; competition
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;WHERE&lt;/span&gt; age &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;ORDER&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;BY&lt;/span&gt; age &lt;span style=&#34;color:#66d9ef&#34;&gt;DESC&lt;/span&gt;, avg_speed &lt;span style=&#34;color:#66d9ef&#34;&gt;DESC&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;First we have ordered by &lt;em&gt;&lt;strong&gt;age&lt;/strong&gt;&lt;/em&gt;, if there is two or more records have same age than it will order by &lt;em&gt;&lt;strong&gt;avg_speed&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>First Post Post Title</title>
-      <link>https://huseyinhilal.github.io.git/posts/first_post/</link>
+      <link>http://localhost:1313/posts/first_post/</link>
       <pubDate>Fri, 02 Jan 2026 00:19:24 +0300</pubDate>
       
-      <guid>https://huseyinhilal.github.io.git/posts/first_post/</guid>
+      <guid>http://localhost:1313/posts/first_post/</guid>
       
       <description>&lt;p&gt;This is some test content&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String &lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt;args){

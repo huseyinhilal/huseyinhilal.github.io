@@ -1,0 +1,10 @@
+# Hugo build çıktısı — GitHub Actions bunu sunucuda kendisi üretir, repoya girmez
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# İşletim sistemi / editör
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
